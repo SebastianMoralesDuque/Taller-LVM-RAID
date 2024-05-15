@@ -1,10 +1,10 @@
 # Guía de Configuración de RAID 1, LVM y OwnCloud
 
-### 1. Preparar el Entorno
-
-#### a. Instalar Dependencias
-
 ```bash
+2. Preparar el Entorno
+a. Instalar Dependencias
+
+
 sudo apt update
 sudo apt install -y mdadm lvm2 docker docker-compose
 
