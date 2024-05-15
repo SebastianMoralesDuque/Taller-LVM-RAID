@@ -1,12 +1,4 @@
-# Taller-LVM-RAID
-
-Claro, aquí tienes el texto formateado para copiar y pegar en tu GitHub:
-
-markdown
-
 # Guía de Configuración de RAID 1, LVM y OwnCloud
-
-## Sebastian Morales Duque
 
 ### 1. Preparar el Entorno
 
