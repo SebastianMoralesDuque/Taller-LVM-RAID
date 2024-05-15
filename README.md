@@ -1,7 +1,7 @@
 # Guía de Configuración de RAID 1, LVM y OwnCloud
 
 ```bash
-2. Preparar el Entorno
+1. Preparar el Entorno
 a. Instalar Dependencias
 
 
