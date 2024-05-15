@@ -16,13 +16,13 @@ sudo dd if=/dev/zero of=/mnt/disk3.img bs=1M count=1024
 ```
 
 b. Asociar Archivos de Imagen a Dispositivos de Loop
-
+```bash
 sudo losetup /dev/loop0 /mnt/disk1.img
 sudo losetup /dev/loop1 /mnt/disk2.img
 sudo losetup /dev/loop2 /mnt/disk3.img
-
+```
 Verifica los dispositivos de loop creados (20, 21 y 22):
-
+```bash
 sudo losetup -a
 ```
 3. Configurar RAID 1
