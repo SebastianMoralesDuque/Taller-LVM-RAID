@@ -21,7 +21,7 @@ sudo losetup /dev/loop0 /mnt/disk1.img
 sudo losetup /dev/loop1 /mnt/disk2.img
 sudo losetup /dev/loop2 /mnt/disk3.img
 ```
-6. Verifica los dispositivos de loop creados (20, 21 y 22):
+6. Verifica los dispositivos de loop creados:
 ```bash
 sudo losetup -a
 ```
