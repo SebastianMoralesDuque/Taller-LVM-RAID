@@ -25,8 +25,7 @@ sudo losetup /dev/loop2 /mnt/disk3.img
 ```bash
 sudo losetup -a
 ```
-7. Configurar RAID 1
-8. Crear el RAID 1
+7-8. Configurar y Crear RAID 1
 ```bash
 sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=3 /dev/loop0 /dev/loop1 /dev/loop2
 ```
